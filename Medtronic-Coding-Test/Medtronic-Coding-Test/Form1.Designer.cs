@@ -41,7 +41,7 @@ namespace Medtronic_Coding_Test
             this.dgvEmployees.Name = "dgvEmployees";
             this.dgvEmployees.RowHeadersWidth = 62;
             this.dgvEmployees.RowTemplate.Height = 33;
-            this.dgvEmployees.Size = new System.Drawing.Size(775, 345);
+            this.dgvEmployees.Size = new System.Drawing.Size(1633, 577);
             this.dgvEmployees.TabIndex = 0;
             // 
             // lblError
@@ -57,7 +57,7 @@ namespace Medtronic_Coding_Test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1658, 682);
             this.Controls.Add(this.lblError);
             this.Controls.Add(this.dgvEmployees);
             this.Name = "Form1";
