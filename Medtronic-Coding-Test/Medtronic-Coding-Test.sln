@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medtronic-Coding-Test", "Me
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MainDB", "MainDB\MainDB.sqlproj", "{7FA4DC94-E327-48DE-8711-25E2A770E31F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{3E7BAD27-D866-43CD-BE40-598A97A13BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{66E63858-5F5C-4C7C-B82C-FC4774AEDADE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{7FA4DC94-E327-48DE-8711-25E2A770E31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FA4DC94-E327-48DE-8711-25E2A770E31F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7FA4DC94-E327-48DE-8711-25E2A770E31F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3E7BAD27-D866-43CD-BE40-598A97A13BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7BAD27-D866-43CD-BE40-598A97A13BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7BAD27-D866-43CD-BE40-598A97A13BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7BAD27-D866-43CD-BE40-598A97A13BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66E63858-5F5C-4C7C-B82C-FC4774AEDADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E63858-5F5C-4C7C-B82C-FC4774AEDADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E63858-5F5C-4C7C-B82C-FC4774AEDADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E63858-5F5C-4C7C-B82C-FC4774AEDADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

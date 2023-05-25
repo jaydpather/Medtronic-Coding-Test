@@ -29,13 +29,50 @@ namespace Medtronic_Coding_Test
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dgvEmployees = new System.Windows.Forms.DataGridView();
+            this.lblError = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dgvEmployees
+            // 
+            this.dgvEmployees.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEmployees.Location = new System.Drawing.Point(13, 93);
+            this.dgvEmployees.Name = "dgvEmployees";
+            this.dgvEmployees.RowHeadersWidth = 62;
+            this.dgvEmployees.RowTemplate.Height = 33;
+            this.dgvEmployees.Size = new System.Drawing.Size(775, 345);
+            this.dgvEmployees.TabIndex = 0;
+            // 
+            // lblError
+            // 
+            this.lblError.AutoSize = true;
+            this.lblError.ForeColor = System.Drawing.Color.Red;
+            this.lblError.Location = new System.Drawing.Point(12, 9);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(0, 25);
+            this.lblError.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblError);
+            this.Controls.Add(this.dgvEmployees);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dgvEmployees;
+        private System.Windows.Forms.Label lblError;
     }
 }
 
