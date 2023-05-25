@@ -12,6 +12,7 @@ namespace BusinessLayer
 
             try
             {
+                //a real app would use dependency injection, and only and interface would be exposed to the business layer
                 var dataProvider = new DataProvider("Data Source=(localdb)\\MSSQLLocalDB;Integrated Security=True"); //real app would use config file
                 retVal = dataProvider.LoadEmployees();
             }
@@ -21,7 +22,7 @@ namespace BusinessLayer
             }
 
 
-            return retVal;
+            return retVal; //null will indicate an error case, whereas an empty table indicates success with 0 records
         }
     }
 }

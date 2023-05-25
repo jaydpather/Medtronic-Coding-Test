@@ -23,7 +23,8 @@ namespace Medtronic_Coding_Test
             try
             {
                 var employeeSvc = new EmployeeService();
-                dgvEmployees.DataSource = employeeSvc.LoadEmployees();
+                var employees = employeeSvc.LoadEmployees(); //in a real app, this would be an RPC
+                dgvEmployees.DataSource = employees; //in a real app, I would give the columns friendly names (e.g., "First Name" instead of FirstName)
             }
             catch (Exception)
             {
